@@ -1,6 +1,7 @@
 ## Proyecto "Abarrotes Tizimin"
 
-**Licenciatura:** Licenciatura en Ingeniería de Software 
+**Licenciatura:** Licenciatura en Ingeniería de Software  
+
 **Asesor:**  José Luis Lopez Martínez
 
 ##### Integrantes:
