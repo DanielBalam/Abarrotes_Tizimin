@@ -19,7 +19,7 @@ El objetivo de esto es crear un programa de ventas de una tienda de abarrotes ba
 
 ## Vistas del proyecto
 
-En esta seccion se mostrara las diferentes vistas del proyecto, incluyendo las secciones.
+![Vista del proyecto](Imagen/VistaProyecto.png)
 
 ## Requerimientos Funcionales y no funcionales
 
