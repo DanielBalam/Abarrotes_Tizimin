@@ -8,7 +8,7 @@
 * Daniel de Jesús Balam Pech
 * Luis Ángel Náhuat Tah
 
-**Fecha de entrega: 29/04/2025**
+**Fecha de entrega: 20/05/2025**
 ## Introducción
 
 Este proyecto tiene como finalidad la creacion de un software que nos ayude a gestionar de manera eficiente un tienda de abarrotes, tendra varios puntos importantes a cubrir como lo son el registro de articulos, realizacion de ventas y impresión de ticket. Lo que se busca en este caso es que el software sea amigable al usuario y que tenga una interfaz sencilla y funcional.
@@ -78,6 +78,52 @@ En esta seccion se mostrara las diferentes vistas del proyecto, incluyendo las s
 - **Persistencia de Datos** (opcional dependiendo del alcance inicial)
     Idealmente, el sistema debería almacenar los datos de clientes, artículos y compras de forma
     persistente (archivos o bases de datos), aunque esto no fue solicitado explícitamente.
+
+## Diagramas utilizados
+
+##### Diagrama de casos de uso:
+
+![Diagrama de casos de uso](Imagen/DiagramaCasosdeUso.png)
+
+##### Diagrama de clase:
+
+![Diagrama de clase](Imagen/DiagramaDeClases.png)
+
+##### Diagrama de secuencia:
+
+![Diagrama de secuencia](Imagen/DiagramaDeSecuencia.JPEG)
+
+##### Diagrama de estados:
+
+![Diagrama de estado](Imagen/DiagramaEstado_cliente.png)
+
+![Diagrama de estado](Imagen/DiagramaEstado_articulo.png)
+
+![Diagrama de estado](Imagen/DiagramaEstado_compra.png)
+
+##### Diagrama de colaboración:
+
+![Diagrama de colaboracion](Imagen/DiagramaColaboracion.jpeg)
+
+##### Diagrama de actividad:
+
+![Diagrama de actividades](Imagen/DiagramaActividades.jpeg)
+## Patrones de diseño
+
+**FACTORY:**
+Es un patrón de diseño creacional que proporciona una interfaz para crear objetos en una superclase, mientras permite a las subclases alterar el tipo de objetos que se crearán.
+
+![Metodo Factory](Imagen/MetodoFactory.png)
+
+**SINGLETON:**
+Es un patrón de diseño creacional que nos permite asegurarnos de que una clase tenga una única instancia, a la vez que proporciona un punto de acceso global a dicha instancia.
+
+![Metodo Singleton](Imagen/MetodoSingleton.png)
+
+**MCV:**
+Es un patrón de diseño que organiza una aplicación en tres componentes: el **Modelo**, que gestiona los datos y la lógica del negocio; la **Vista**, que presenta la información al usuario; y el **Controlador**, que actúa como intermediario entre ambos, procesando las acciones del usuario y actualizando el modelo o la vista según sea necesario.
+
+![Metodo MVC](Imagen/MetodoMVC.png)
 
 ## Conclusiones
 

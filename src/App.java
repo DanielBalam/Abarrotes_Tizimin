@@ -12,10 +12,9 @@ public class App {
                 "3. Realizar compra\n" +
                 "4. Ver todos los clientes\n" +
                 "5. Ver todos los artículos\n" +
-                "6. Imprimir último ticket\n" +
-                "7. Salir");
+                "6. Salir");
 
-            if (opcion == null || opcion.equals("7")) break;
+            if (opcion == null || opcion.equals("6")) break;
 
             switch (opcion) {
                 case "1":
@@ -33,9 +32,6 @@ public class App {
                 case "5":
                     verArticulos();
                     break;
-                // case "6":
-                //     imprimirUltimoTicket();
-                //     break;
                 default:
                     JOptionPane.showMessageDialog(null, "Opción inválida.");
             }
